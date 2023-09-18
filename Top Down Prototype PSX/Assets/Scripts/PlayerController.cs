@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(Cake, transform.position, cake.transform.rotation);
+            Instantiate(Cake, transform.position, Cake.transform.rotation);
         }
     }
 }
