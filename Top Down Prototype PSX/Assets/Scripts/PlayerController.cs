@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public float speed = -20;
     public float xRange = 34.5f;
+    public GameObject Cake;
     void Start()
     {
         
@@ -26,6 +27,11 @@ public class PlayerController : MonoBehaviour
         if (transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(Cake, transform.position, cake.transform.rotation);
         }
     }
 }
