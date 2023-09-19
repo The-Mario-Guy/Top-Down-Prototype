@@ -1123,7 +1123,7 @@ MonoBehaviour:
   horizontalInput: 0
   speed: -50
   xRange: 34.5
-  Cake: {fileID: 0}
+  Cake: {fileID: 2675649090680193205, guid: d7b2d9276d204a14b906a7f40ac18bf8, type: 3}
 --- !u!33 &1053500827005183878
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2591,10 +2591,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Food
       objectReference: {fileID: 0}
-    - target: {fileID: 3490725302844752404, guid: d7b2d9276d204a14b906a7f40ac18bf8, type: 3}
-      propertyPath: cameraToLookAt
-      value: 
-      objectReference: {fileID: 963194227}
     - target: {fileID: 6558796280146345255, guid: d7b2d9276d204a14b906a7f40ac18bf8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
